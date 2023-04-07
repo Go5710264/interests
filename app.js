@@ -1,4 +1,4 @@
-const interestCheck = [...document.querySelectorAll('.interest__check')]; // доступ к чекбоксам
+const interestCheck = [...document.querySelectorAll('.interest__check')]; 
 console.log(interestCheck);
 
 interestCheck.forEach((element, index) => {
